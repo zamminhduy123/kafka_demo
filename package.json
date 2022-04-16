@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "name": "kafka_demo",
+  "version": "1.0.0",
+  "description": "kafka demo ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:producer": "node producer/index.js",
+    "start:consumer": "node consumer/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "avsc": "^5.7.4",
+    "kafkajs": "^1.16.0"
+  }
+}
